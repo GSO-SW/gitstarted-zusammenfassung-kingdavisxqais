@@ -1,37 +1,49 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ml30NJID)
-# git Zusammenfassung
-In dieser Readme.md soll zusammengefasst werden, was man für die Arbeit mit git und gitHub kennen sollte.  Sie dürfen die gesamte Datei verändern (Sie dürfen alle vorhandenen Text entfernen). **Schaffen Sie eine gute Lerngrundlage bzw. ein Nachschlagewerk!**
+📘 Git & GitHub - BEGRIFFE
 
+Repository (Repo)
+Ein Projektverzeichnis mit allen Dateien und der vollständigen Versionshistorie.
 
-## :dart: Ziele:
+Working Directory
+Der aktuelle Arbeitsbereich, in dem Dateien bearbeitet werden.
 
-:desktop_computer: **1. Programmieralltag simulieren**
-  - **nicht** im Browser arbeiten
-  - **Clonen** Sie das Repo (url ist in der Adressezeile) und **arbeiten** Sie **lokal**
-  - .md-Dateien können mit jedem Texteditor geöffnet werden
-	
- :heartpulse:**2. Training des Teamworks:**
-  - bearbeiten Sie nur die Datei Readme.md (keine Unterordner, keine weiteren Dateien etc.)
-  - **häufige commits**
-  - **häufiges pushen/pullen**
-  - eigene **Branches**
-    - lokal einrichten, anschließend pushen
-    - auf github einrichten, anschließend pullen und auschecken
- 
-  :wave: **3. Markdown kennenlernen** 
-  - Markdown-Dateien (.md) enthalten eine einfache Syntax zur Formatierung von Texten. Dateien namens `readme.md` werden von GitHub automatisch auf der Startseite eines Repositorys angezeigt. [Mehr Infos zu Markdown](https://oliverbrux.de/blog/markdown-was-ist-das-eigentlich)
-  - In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) finden Sie Hinweise, wie man .md-Dateien formatiert.
-  - Mit diesen [Generator](https://www.tablesgenerator.com/markdown_tables) können Sie Tabellen für Markdown erzeugen
+Staging Area (Index)
+Der Bereich, in dem Änderungen gesammelt werden, bevor sie committet werden.
 
-## offene Fragen
-:question: Listen Sie hier Ihre **offenen Fragen, Unklarheiten** etc. auf.
-- ...
-- ...
+Commit
+Eine gespeicherte Momentaufnahme des Projekts mit Beschreibung der Änderungen.
 
-## TODO
+Branch
+Ein separater Entwicklungszweig innerhalb eines Repositories.
 
-:bulb: **Inspiration**, was man hier alles eintragen könnte
-- **Begriffe** definieren und erklären (z.B. repository, branch, Umgang mit merge-Konflikten etc.)
-- git **Befehle** für die Arbeit mit **lokalen Repositories** auflisten (z.B. `git init` bis `git merge --abort`)
-- git **Befehle** für die Arbeit mit **entfernten Repositories** auflisten (z.B. `git clone` bis `$ git push --set-upstream origin/develop`)
--
+Merge
+Das Zusammenführen von Änderungen aus verschiedenen Branches.
+
+Merge-Konflikt
+Tritt auf, wenn Git Änderungen nicht automatisch zusammenführen kann.
+
+HEAD
+Ein Zeiger auf den aktuellen Commit, der ausgecheckt ist.
+
+Clone
+Erstellt eine Kopie eines bestehenden Repositories.
+
+Pull Request (PR)
+Ein Vorschlag, Änderungen von einem Branch in einen anderen zu übernehmen.
+
+README.md
+Eine Markdown-Datei, die Informationen über das Projekt enthält.
+
+Remote
+Ein entferntes Repository, z. B. auf GitHub, das mit dem lokalen Repository verbunden ist.
+
+Origin
+Der Standardname für das Remote-Repository, von dem das lokale Repository geklont wurde.
+
+Staged Files
+Dateien, die zur Staging Area hinzugefügt wurden und im nächsten Commit enthalten sein werden.
+
+Unstaged Files
+Dateien, die geändert wurden, aber noch nicht zur Staging Area hinzugefügt wurden.
+
+Detached HEAD
+Ein Zustand, in dem HEAD auf einen Commit zeigt, der nicht der Spitze eines Branches ist.
