@@ -1,3 +1,25 @@
+--------------------------------------------------------
+
+=======================
+GITHUB – BEGRIFFSERKLÄRUNG
+=======================
+
+• Repository (Repo)
+Ein Projektordner, den Git verwaltet – lokal auf deinem PC oder online (z. B. auf GitHub).
+
+• Working Tree (Arbeitsverzeichnis)
+Der sichtbare Ordner mit deinen aktuellen Dateien – also das, woran du gerade arbeitest.
+
+• Staging Area (Index)
+Eine Zwischenablage für Änderungen, die du mit git add vorgemerkt hast – noch nicht endgültig übernommen.
+
+• Remote
+Ein Verweis auf ein entferntes Repository (z. B. auf GitHub).
+Standardname ist meistens origin.
+
+• Branch
+Ein Entwicklungszweig, auf dem du unabhängig vom Hauptzweig arbeiten kannst.
+
 =======================
  GIT BEFEHLE – GRUNDLAGEN
 =======================
